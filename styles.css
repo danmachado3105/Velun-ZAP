@@ -90,7 +90,7 @@
   #recursos{ --accent: var(--purple); }
   #depoimentos{ --accent: var(--mint); }
   #planos .kicker{ --accent: var(--green); }
-  #sobre{ --accent: var(--sky); }
+  #sobre{ --accent: var(--green); }
   #faq{ --accent: var(--sun); }
   #demo{ background: linear-gradient(180deg, rgba(61,165,217,0.07), transparent); }
   #como-funciona{ background: linear-gradient(180deg, rgba(245,169,38,0.07), transparent); }
@@ -296,12 +296,16 @@
   .about p{ color:var(--muted); font-size:0.94rem; max-width:58ch; margin:0 auto; }
   .about-photo{
     width:112px; height:112px; border-radius:50%;
-    border:1.5px dashed var(--line-strong); background:var(--panel);
-    display:flex; flex-direction:column; align-items:center; justify-content:center; gap:6px;
-    color:var(--muted); flex-shrink:0;
+    object-fit:cover; flex-shrink:0;
+    border:2.5px solid transparent;
+    background: linear-gradient(var(--bg), var(--bg)) padding-box,
+                linear-gradient(135deg, var(--green), var(--spring)) border-box;
+    box-shadow: 0 10px 26px -14px rgba(29,42,34,0.4);
   }
-  .about-photo svg{ width:26px; height:26px; }
-  .about-photo span{ font-size:0.65rem; font-family:'JetBrains Mono',monospace; text-align:center; max-width:80px; }
+  .about-name{
+    font-family:'Space Grotesk', sans-serif; font-weight:700; font-size:1.05rem;
+    margin-top:-8px;
+  }
 
   /* FAQ */
   .faq-item{ border-bottom:1px solid var(--line); }
