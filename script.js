@@ -40,13 +40,6 @@
   let cycle = playScript();
   setInterval(() => { cycle = playScript(); }, cycle + 2000);
 
-  // Theme toggle
-  const root = document.documentElement;
-  document.getElementById('theme-toggle').addEventListener('click', () => {
-    const isDark = root.getAttribute('data-theme') === 'dark';
-    root.setAttribute('data-theme', isDark ? 'light' : 'dark');
-  });
-
   // FAQ accordion
   document.querySelectorAll('.faq-item').forEach(item => {
     const q = item.querySelector('.faq-q');
