@@ -4,6 +4,8 @@ Landing page de um assistente de atendimento com IA para WhatsApp, voltado a peq
 
 > 🚧 **Projeto em andamento** — estrutura e visual já funcionais, alguns espaços (fotos e depoimentos) ainda são placeholders aguardando conteúdo real.
 
+🔗 **No ar:** [veluntech.netlify.app]
+
 ## Sobre
 
 O Velun ZAP atende os clientes de um negócio direto no WhatsApp: tira dúvidas, qualifica quem tem interesse real e só chama o dono quando a decisão é dele. Esta página serve como vitrine do serviço, com CTA direto pro WhatsApp.
