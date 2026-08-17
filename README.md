@@ -4,7 +4,7 @@ Landing page de um assistente de atendimento com IA para WhatsApp, voltado a peq
 
 > 🚧 **Projeto em andamento** — estrutura e visual já funcionais, alguns espaços (fotos e depoimentos) ainda são placeholders aguardando conteúdo real.
 
-🔗 **No ar:** [veluntech.netlify.app]
+🔗 **No ar:** [ https://velunzap.netlify.app ]
 
 ## Sobre
 
