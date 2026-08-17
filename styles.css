@@ -218,9 +218,18 @@
     width:52px; height:52px; border-radius:50%; background:rgba(46,125,50,0.18);
     border:1px solid var(--line-strong); display:flex; align-items:center; justify-content:center;
   }
-  .media-placeholder .play svg{ width:18px; height:18px; fill:var(--mint); margin-left:2px; }
+  .media-placeholder .play svg{ width:22px; height:22px; color:var(--mint); }
   .media-placeholder .label{ font-size:0.85rem; max-width:34ch; }
   .media-placeholder .tag{ font-family:'JetBrains Mono',monospace; font-size:0.68rem; color: var(--mint); }
+
+  .photo-grid{ display:grid; gap:20px; }
+  .photo-item{ display:flex; flex-direction:column; gap:12px; }
+  .photo-slot{ aspect-ratio: 3/4; padding:20px; }
+  .photo-item figcaption{ text-align:left; padding:0 2px; }
+  .photo-item figcaption strong{ display:block; font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:0.94rem; margin-bottom:2px; }
+  .photo-item figcaption span{ font-size:0.83rem; color:var(--muted); }
+  .photo-grid .reveal:nth-child(2){ transition-delay:.1s; }
+  .photo-grid .reveal:nth-child(3){ transition-delay:.2s; }
 
   /* PROCESS STEPS */
   .steps{ display:grid; gap:18px; }
@@ -359,6 +368,7 @@
     .steps{ grid-template-columns: repeat(2, 1fr); }
     .feat-grid{ grid-template-columns: repeat(2, 1fr); }
     .testi-grid{ grid-template-columns: repeat(2, 1fr); }
+    .photo-grid{ grid-template-columns: repeat(3, 1fr); }
   }
 
   @media (min-width: 768px){
