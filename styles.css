@@ -310,6 +310,15 @@
     .testi-grid{ grid-template-columns: repeat(2, 1fr); }
   }
 
+  @media (min-width: 768px){
+    .hero .wrap{ display:grid; grid-template-columns: 1.05fr 0.95fr; gap:48px; align-items:center; }
+    .hero-copy{ text-align:left; max-width:none; margin:0; }
+    .pill-row{ justify-content:flex-start; }
+    .hero .lede{ margin:0 0 28px; }
+    .hero-ctas{ justify-content:flex-start; }
+    .phone-stage{ margin-top:0; }
+  }
+
   @media (min-width: 900px){
     .nav-links{ display:flex; }
     .steps{ grid-template-columns: repeat(3, 1fr); }
